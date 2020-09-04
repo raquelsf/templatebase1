@@ -12,4 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public executeSelectedChange = (event) => {
+    console.log(event);
+  }
 }

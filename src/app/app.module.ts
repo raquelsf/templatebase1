@@ -12,15 +12,17 @@ import {HeaderComponent} from './navigation/header/header.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
-import {SidenavListComponent} from './navigation/sidenav-list/sidenav-list.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { LayoutComponent } from './layout/layout.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    SidenavListComponent
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatIconModule,
     MatListModule,
     MatMenuModule,
+    MatTabsModule,
+    FlexLayoutModule
   ],
   exports: [
     MatSidenavModule,
