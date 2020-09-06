@@ -1,0 +1,43 @@
+@import '~@angular/material/theming';
+
+$primary-palette: (
+  50 : #ffcdd2,
+  100 : #790700,
+  500 : #790700,
+  600 : #af3e2a,
+  900 : #490000,
+  A100 : #c62828,
+  A200 : #d32f2f,
+  A400 : #9b0000,
+  A700 : #8e0000,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+
+$app-primary: mat-palette($primary-palette);
+$app-accent:  mat-palette($primary-palette, A700);
+$app-warn:    mat-palette($primary-palette);
+$app-dark:    mat-palette($mat-grey, 800);
+$app-light:    mat-palette($mat-grey, 300);
+
+$primary: mat-color($app-primary);
+$accent: mat-color($app-accent);
+$warn: mat-color($app-warn);
+$dark: mat-color($app-dark);
+$light: mat-color($app-light);
+

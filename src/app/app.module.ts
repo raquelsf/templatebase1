@@ -16,13 +16,21 @@ import {MatMenuModule} from '@angular/material/menu';
 import { LayoutComponent } from './layout/layout.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { PartnersComponent } from './partners/partners.component';
+import { PresentationComponent } from './presentation/presentation.component';
+import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    LayoutComponent
+    LayoutComponent,
+    PartnersComponent,
+    PresentationComponent,
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

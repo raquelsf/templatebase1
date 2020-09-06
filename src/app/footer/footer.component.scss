@@ -1,0 +1,28 @@
+@import "../../assets/scss/theme/_variables.scss";
+
+.footer{
+  background: url('~src/assets/images/background.png');
+  padding: 3%;
+  height: 250px;
+  width: 100%;
+  color: $primary;
+}
+
+img{
+  padding: 3%;
+  width: 32px;
+}
+
+.footer {
+  position: relative;
+  z-index: 5;
+  padding: 20px;
+}
+
+.footer .ft {
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: .4;
+}

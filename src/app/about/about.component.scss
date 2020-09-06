@@ -1,0 +1,9 @@
+@import "../../assets/scss/theme/_variables.scss";
+
+.about{
+  background-color: $primary;
+  height: 350px;
+  width: 100%;
+  color: $light;
+  padding: 3%;
+}
